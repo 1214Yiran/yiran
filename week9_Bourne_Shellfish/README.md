@@ -37,16 +37,19 @@ as one **status card**. Question 2 is answered by **closure alerts** you can sig
 
 ### Home
 - **Status card** for your spot, with a spot picker under it (e.g. *Your spot: Phinney's Harbor*).
-- **All spots**: a list of every harvesting area and its status, set by the Town.
+  It says what the status is, **why** (e.g. heavy rain, runoff can make shellfish unsafe to eat),
+  **until when**, and what to do next.
+- **All spots**: every harvesting area with its status and reason, set by the Town. Tap **Why?** for details.
 - **Dates open to the public**: oyster season, open days and the weekly limit.
-- **Conditions**: four live readings in tiles (sample values in this prototype).
-- **Sections**: shortcuts to the rest of the original website.
+- **Conditions**: weather, water quality, low tide and other notes (sample values in this prototype).
+- **Sections**: Permits, Regulations, Maps and Education, the rest of the original website.
 
 ### Closure alerts
-- Choose **which spots** to follow.
-- Choose **when** to be told.
-- Choose **how**, including a text message to your phone number.
-- One button: **Turn on alerts**.
+Rain, red tide or a spill can close a spot overnight, so the app tells you when your spots close, may close, or reopen.
+- **Which spots?** Pick your own spots, or all 10.
+- **Tell me when** a spot closes, a closure is likely, a spot reopens, or the season opens.
+- **How**: app notification, text message or email.
+- One button: **Turn on alerts**. You can change or stop them anytime.
 
 ### Menu
 - Permits, Regulations, Maps, Education.
@@ -56,14 +59,17 @@ as one **status card**. Question 2 is answered by **closure alerts** you can sig
 
 The same card changes for four situations, so a harvester can read it at a glance:
 
-| State | Meaning |
-|---|---|
-| **Open** | You can harvest here today. |
-| **Closed** | The spot is closed. |
-| **Not public** | This area is not open for public harvesting. |
-| **May close** | Open for now, but a closure may come soon. |
+| State | Headline | Main button |
+|---|---|---|
+| **Open** | Open today | View on map |
+| **Closed** | Closed due to conditions | Sign up for alerts |
+| **Closed to public** | Not open to the public (outside the recreational season) | See open dates |
+| **May close** | May close soon (e.g. heavy rain forecast) | Sign up for alerts |
 
-The spot rows in the list use the same four states.
+Every card shows the reason, a date (open through / closed through / opens / possible closure from),
+and "Set by Town of Bourne Natural Resources" with the update time.
+
+The spot rows in the list use the same four states, each with its own action: Directions, Why? or Dates.
 
 ## Components
 
